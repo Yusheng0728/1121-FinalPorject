@@ -1040,7 +1040,13 @@ margin: 0 15px 20px 15px;
      color: #183661;
      opacity: 1;
 }
-
-
-/** end contact section **/
+.img1{
+     max-width: 300%; /* 圖片最大寬度為容器的300% */
+     max-height: 500%; /* 圖片最大高度為容器的300% */
+     position: relative; /* 設置相對定位，以便使用絕對定位來垂直置中圖片 */
+     min-width: 300px; /* 設置最小寬度，根據實際需求調整 */
+     min-height: 300px; /* 設置最小高度，根據實際需求調整 */
+     text-align: center;
+     
+   }
 
