@@ -1053,5 +1053,11 @@ margin: 0 15px 20px 15px;
      max-width: 50%; /* 圖片最大寬度為容器的300% */
      max-height: 50%; /* 圖片最大高度為容器的300% */
      min-width: 50px; /* 設置最小寬度，根據實際需求調整 */
-     min-height: 50px; /* 設置最小高度，根據實際需求調整 */
+     min-height: 300px; /* 設置最小高度，根據實際需求調整 */
 }
+a {
+     text-decoration: none;
+     color: blue;
+     padding: 3px 5px;
+     border-radius: 3px;
+   }
